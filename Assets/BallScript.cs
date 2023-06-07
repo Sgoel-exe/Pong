@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class BallScript : MonoBehaviour
 {
-    public float speed = 10f;
-    public float minSpeed = 5f;
-    public float maxSpeed = 15f;
+    public float speed = 15f;
+    public float minSpeed = 10f;
+    public float maxSpeed = 30f;
     [Range(-6f, 6f)]
     public float multiplier = 3f;
     public Rigidbody2D rb;
@@ -48,6 +48,7 @@ public class BallScript : MonoBehaviour
         var speed = lastVelocity.magnitude;
         var direction = Vector3.Reflect(lastVelocity.normalized, collision.contacts[0].normal);
         Vector2 velocity = direction * Mathf.Max(Mathf.Min(maxSpeed, speed), minSpeed);
+        
         if(collision.gameObject.tag == "Destroyer")
         {
             velocity.y = 0;
