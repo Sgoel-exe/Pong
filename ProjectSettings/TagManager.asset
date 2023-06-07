@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ArenaWall
   - Ball
+  - Destroyer
   layers:
   - Default
   - TransparentFX
