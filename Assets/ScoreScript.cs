@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ScoreScript : MonoBehaviour
 {
@@ -25,7 +26,23 @@ public class ScoreScript : MonoBehaviour
         {
             score++;
             Text.text = score.ToString();
+            if(score == 5)
+            {
+                WhoWon();
+            }
             collision.gameObject.GetComponent<BallScript>().ResetBall(transform.position.x);
+        }
+    }
+
+    void WhoWon()
+    {
+        if(transform.position.x > 0)
+        {
+            SceneManager.LoadScene("P1Won");
+        }
+        else
+        {
+            SceneManager.LoadScene("P2Won");
         }
     }
 
