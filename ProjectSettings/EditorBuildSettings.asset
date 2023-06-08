@@ -9,6 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Start.unity
     guid: 8ba1e1d51920cbe48b0768c42bb5ce6b
   - enabled: 1
-    path: Assets/Scenes/Game.unity
+    path: Assets/Scenes/AImenu.unity
+    guid: 9aedb13e6527eda419b131fb4d23401c
+  - enabled: 1
+    path: Assets/Scenes/GameVSAi.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: d4aaef93818b2864ea579f23c1d6a479
+  - enabled: 1
+    path: Assets/Scenes/P1Won.unity
+    guid: d0c0ceddf75771a4a9d2c9190dbc858e
+  - enabled: 1
+    path: Assets/Scenes/P2Won.unity
+    guid: 64b47e06273fe9f47a1aa70c7c54ec2d
   m_configObjects: {}

@@ -16,8 +16,18 @@ public class StartScript : MonoBehaviour
         
     }
 
-    public void StartGame()
+    public void StartVsHuman()
     {
         SceneManager.LoadScene("Game");
+    }
+
+    public void StartVsAI()
+    {
+        SceneManager.LoadScene("AImenu");
+    }
+
+    public void StartVsAIeasy()
+    {
+        SceneManager.LoadScene("GameVSAi");
     }
 }

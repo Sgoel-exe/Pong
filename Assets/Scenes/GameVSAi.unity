@@ -385,60 +385,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 888072572}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c65750edc9e53ea4c8c285226d442dae, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ec7d4ce07b83984197bb983e2f845bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  movement:
-    m_Name: Movement
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 50f53e0a-e17f-4f45-a010-ebea37111ec6
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 2D Vector
-      m_Id: 7de2c10f-4575-4354-9296-5ba3c321a03c
-      m_Path: 2DVector
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 4
-    - m_Name: up
-      m_Id: 73e15db2-7942-4511-8131-8f52a613ad69
-      m_Path: <Keyboard>/upArrow
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    - m_Name: down
-      m_Id: c062a88a-e59f-4aeb-ab59-3d583fddd708
-      m_Path: <Keyboard>/downArrow
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    - m_Name: left
-      m_Id: ff20b008-5487-4ce9-b599-1bbf8aefa1cf
-      m_Path: <Keyboard>/leftArrow
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    - m_Name: right
-      m_Id: e00b9d89-ee8e-44a6-abd3-71de93bcf323
-      m_Path: <Keyboard>/rightArrow
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    m_Flags: 0
-  rb: {fileID: 888072576}
+  rigidBody: {fileID: 888072576}
+  speed: 7
+  ball: {fileID: 2098999306}
+  lerpSpeed: 0.5
 --- !u!1 &961495536
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,7 +1157,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.09413535, g: 0.99215686, b: 0.03137256, a: 1}
+  m_Color: {r: 0.990566, g: 0.032707386, b: 0.26829794, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1222,7 +1175,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1446238047}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.42, y: 0, z: 0}
+  m_LocalPosition: {x: -9.427, y: 0, z: 0}
   m_LocalScale: {x: 0.6, y: 3.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
