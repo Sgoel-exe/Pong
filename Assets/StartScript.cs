@@ -30,4 +30,9 @@ public class StartScript : MonoBehaviour
     {
         SceneManager.LoadScene("GameVSAi");
     }
+
+    public void startCampaign()
+    {
+        SceneManager.LoadScene("Level1");
+    }
 }
