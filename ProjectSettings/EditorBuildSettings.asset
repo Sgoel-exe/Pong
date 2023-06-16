@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AImenu.unity
     guid: 9aedb13e6527eda419b131fb4d23401c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GameVSAi.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -32,7 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/P2Won.unity
     guid: 64b47e06273fe9f47a1aa70c7c54ec2d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/YouLost.unity
     guid: e36899075947eb347a1d40e0508ac58b
   m_configObjects: {}

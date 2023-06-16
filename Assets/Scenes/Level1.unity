@@ -577,10 +577,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 435240943}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47b0f3b53e639c7409a48beaa383740b, type: 3}
+  m_Script: {fileID: 11500000, guid: 33fca8d277a862144a60bd87ba66b26d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 3
+  score: 0
   Text: {fileID: 876112910}
 --- !u!1 &511947236
 GameObject:
@@ -888,7 +888,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 0
 --- !u!222 &876112911
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1688,7 +1688,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.9811321, g: 0.7132976, b: 0.45817015, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1946,12 +1946,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1636088884}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5408fe2327950244b86e49b038df2017, type: 3}
+  m_Script: {fileID: 11500000, guid: 33fca8d277a862144a60bd87ba66b26d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 3
+  score: 0
   Text: {fileID: 1932504177}
-  nextLevel: 2
 --- !u!1 &1932504175
 GameObject:
   m_ObjectHideFlags: 0
@@ -2023,7 +2022,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 0
 --- !u!222 &1932504178
 CanvasRenderer:
   m_ObjectHideFlags: 0

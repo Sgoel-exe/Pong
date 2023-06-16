@@ -28,11 +28,26 @@ public class StartScript : MonoBehaviour
 
     public void StartVsAIeasy()
     {
-        SceneManager.LoadScene("GameVSAi");
+        SceneManager.LoadScene("Level1");
     }
 
-    public void startCampaign()
+    public void startVsAImed()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Level2");
+    }
+
+    public void startVsAIhard()
+    {
+        SceneManager.LoadScene("Level3");
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
+
+    public void Home()
+    {
+        SceneManager.LoadScene("Start");
     }
 }

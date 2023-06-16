@@ -353,9 +353,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidBody: {fileID: 249781886}
-  speed: 13
+  speed: 15
   ball: {fileID: 963432137}
-  lerpSpeed: 2
+  lerpSpeed: 1
 --- !u!50 &249781886
 Rigidbody2D:
   serializedVersion: 4
@@ -745,7 +745,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 0
 --- !u!222 &439846525
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -765,7 +765,7 @@ GameObject:
   - component: {fileID: 498251096}
   - component: {fileID: 498251099}
   - component: {fileID: 498251098}
-  - component: {fileID: 498251097}
+  - component: {fileID: 498251100}
   m_Layer: 0
   m_Name: Left
   m_TagString: Destroyer
@@ -789,20 +789,6 @@ Transform:
   m_Father: {fileID: 293986955}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &498251097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 498251095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47b0f3b53e639c7409a48beaa383740b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: 3
-  Text: {fileID: 439846524}
 --- !u!61 &498251098
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -881,6 +867,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &498251100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498251095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33fca8d277a862144a60bd87ba66b26d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  Text: {fileID: 439846524}
 --- !u!1 &605594049
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,7 +892,7 @@ GameObject:
   - component: {fileID: 605594050}
   - component: {fileID: 605594053}
   - component: {fileID: 605594052}
-  - component: {fileID: 605594051}
+  - component: {fileID: 605594054}
   m_Layer: 0
   m_Name: Right
   m_TagString: Destroyer
@@ -916,21 +916,6 @@ Transform:
   m_Father: {fileID: 293986955}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &605594051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 605594049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5408fe2327950244b86e49b038df2017, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: 3
-  Text: {fileID: 612776402}
-  nextLevel: 3
 --- !u!61 &605594052
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1009,6 +994,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &605594054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605594049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33fca8d277a862144a60bd87ba66b26d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  Text: {fileID: 612776402}
 --- !u!1 &612776400
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,7 +1079,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 0
 --- !u!222 &612776403
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1121,11 +1120,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54593c971e0411f479f4061e7f5da089, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
-  minSpeed: 10
-  maxSpeed: 30
+  speed: 20
+  minSpeed: 15
+  maxSpeed: 25
   multiplier: 3
-  rb: {fileID: 0}
+  rb: {fileID: 963432139}
 --- !u!50 &963432139
 Rigidbody2D:
   serializedVersion: 4
